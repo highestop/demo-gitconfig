@@ -1,0 +1,66 @@
+[user]
+    name = Highestop Chen
+    email = highestopchen@gmail.com
+[alias]
+    l = log --oneline --decorate -12 --color
+    ll = log --oneline --decorate --color --graph
+    lc = log --graph --color
+    a = add
+    al = add .
+    st = status -s
+    d = diff
+    dc = diff --cached
+    dh = diff HEAD
+    c = commit
+    cm = commit -m
+    ca = commit --amend
+    co = checkout
+    cb = checkout -b
+    coa = checkout --abort
+    coc = checkout --continue
+    coh = checkout HEAD^
+    br = branch
+    ba = branch -a
+    bd = branch -D
+    f = fetch
+    fp = fetch --prune origin
+    pp = pull -p
+    pl = pull --rebase
+    p = push
+    pf = push -f
+    pt = push --tags
+    pu = push --set-upstream
+    puo = push --set-upstream origin
+    po = push origin
+    pd = push -d origin
+    mg = merge --log=100 --no-ff
+    mq = merge --log=100 --squash
+    mgc = merge --continue
+    mga = merge --abort
+    cp = cherry-pick
+    cpc = cherry-pick --continue
+    cpa = cherry-pick --abort
+    rma = remote add
+    rmv = remote -v
+    rv = revert
+    rvc = revert --continue
+    rva = revert --abort
+    rvh = revert HEAD^
+    r = reset
+    ra = reset --hard
+    rh = reset HEAD^
+    rha = reset HEAD^ --hard
+    rb = rebase
+    rbi = rebase -i
+    rbc = rebase --continue
+    rba = rebase --abort
+    t = tag
+    td = tag -d
+    sh = stash
+    sl = stash list
+    sp = stash pop
+[color]
+    ui = true
+    diff = true
+    status = true
+    branch = true
