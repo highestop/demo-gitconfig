@@ -33,8 +33,8 @@
     puo = push --set-upstream origin
     po = push origin
     pd = push -d origin
-    mg = merge --log=100 --no-ff
-    mq = merge --log=100 --squash
+    mg = merge --no-ff
+    mq = merge --squash
     mgc = merge --continue
     mga = merge --abort
     cp = cherry-pick
